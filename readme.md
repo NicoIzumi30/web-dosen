@@ -56,7 +56,7 @@ class DataBase
         return $this->conn;
     }
 }
-
+```
 ## Run Project
 ```bash
   php php -S localhost:3000
