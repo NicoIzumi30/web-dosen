@@ -60,6 +60,8 @@ class DataBase
 ## Run Project
 ```bash
   php -S localhost:3000
-  or
+```
+or
+```bash
   localhost/web-dosen
 ```
