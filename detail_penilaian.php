@@ -234,11 +234,11 @@ if (isset($_GET['hapus'])) {
                                     $responsi = ($data['responsi'] / 200) * 100;
                                     $uts = $data['uts'];
                                     $uas = $data['uas'];
-                                    $nilai_akhir = ($diskusi * 0.14) +
-                                        ($praktikum * 0.26) +
-                                        ($responsi * 0.15) +
-                                        ($uts * 0.20) +
-                                        ($uas * 0.25);
+                                    $nilai_akhir = ($diskusi * $matkul['diskusi']/100) +
+                                        ($praktikum * $matkul['praktikum']/100) +
+                                        ($responsi * $matkul['responsi']/100) +
+                                        ($uts * $matkul['uts']/100) +
+                                        ($uas * $matkul['uas']/100);
                                     $kategori = "";
                                     if ($nilai_akhir >= 81) {
                                         $kategori = "A";

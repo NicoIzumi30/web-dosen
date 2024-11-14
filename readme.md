@@ -29,7 +29,7 @@ Go to the project directory
   cd web-dosen
 ```
 Configuration Database (import web_dosen.sql to your database)
-```bash
+```bash 
   cd class
 ```
 ```bash
@@ -64,4 +64,10 @@ class DataBase
 or
 ```bash
   localhost/web-dosen
+```
+
+## Login
+```bash
+username : 12345
+password : 121233
 ```
